@@ -21,48 +21,7 @@ weights. Eventually, the optimal combination of both models effectively addresse
 divergence in the quality of both B0 and B1 maps and serves as the additional unique
 solution for the DREAM sequence.
 
-1. Introduction
-In MRI, the main static magnetic ϐield referred to as B0 and B1 ϐield is produced either by
-a local coil or more commonly, from windings in the wall of the scanner itself. B0 is the
-constant homogeneous magnetic ϐield used to polarize spins that create magnetization. It
-can refer to both the direction and the strength of the ϐield. The RF ϐield (B1) is applied
-perpendicular to the longitudinal axis (B0) to agitate the magnetization in some manner
-(e.g. excitation pulses, inversion pulses, etc). The inhomogeneity of magnetic fields
-(mainly B0 and B1) is a common problem in MRI. Although the scanners and coils are
-specially specified to produced maximum homogeneity, some inhomogeneity in the fields
-remains. As B0 and B1 are affected by the magnetic susceptibility of the subject, the
-inhomogeneity in magnetic fields (B0 and B1) leads to artifacts to the optimal image
-quality. In response, many different methods have been developed to acquire B0 and B1
-maps and dual refocusing echo acquisition mode (DREAM) sequence is one of them.
-DREAM sequence works as an ultrafast MRI technique which simultaneously acquires
-two images, enabling the calculation of B1, B0. After the acquisition of the sequence, it needs
-to be corrected and enhanced B0 and B1 maps to overcome the inhomogeneity effects.
-DREAM sequence introduced by Nehrke et al. [ 3 ] in 2012 which relies on a stimulated
-echo acquisition mode (STEAM) preparation sequence followed by a customized single-shot gradient echo sequence. This approach simultaneously measures the stimulated
-echo and the free induction decay as gradient-recalled echoes. Afterward, the actual ϐlip
-angle of the STEAM preparation radiofrequency pulses is determined from the ratio of the
-two measured signals. Moreover, again Tim Baum explored the refinement of the DREAM
-sequence’s B0 and B1 maps which was implemented in his work [7]. Two strategies were followed to generate B0 and B1 maps: STE-first and STE-ID-first that are quite
-sound to optimize the sequence parameters and image quality. However, small significant
-deviations had been addressed in B0 and B1 maps which need to be corrected. In order
-to do that, changing the internal parameters of the sequences is not worthy and simple
-where the DREAM sequence provides a short acquisition time (a few seconds per slice)
-without relying on low-bandwidth acquisition (e.g EPI or spirals) [ 18] that are prone to
-geometric distortion and /or blurring caused by inhomogeneities of the static magnetic field.
-Therefore, it is needed for the post-processing of magnetic field maps B0 and B1.Abul Kasem Mohammad Zunayed
-8
-The journey of AI started a long time ago in 1956 at a workshop at Dartmouth College
-[17]. Recently machine learning, a subset of AI, has become widely recognized to solve
-the MRI-related tasks such as image acquisition, enhancement, reconstruction, denoising,
-prediction and so on. In the DREAM sequence, pursuing the optimality of B0 and B1 maps
-which was implemented by Tim Baum [7], addressed slight variations in the image
-quality. In my thesis works, I try to minimize these deviations of B0 and B1 maps by
-applying machine learning approaches. In response, I proposed two methods to improve
-the quality of the B0 and B1 maps: a multiple linear projections model and an artiϐicial
-neural network model. In addition, these two models have been validated by the WASABI
-sequence compared with the produced invivo B0 and B1 maps from the DREAM sequence.
-![image](https://github.com/abulzunayed/Masters-Thesis/assets/122612945/281cdc43-9bd9-4bcc-96b7-a064e0e9a03e)
-![image](https://github.com/abulzunayed/Masters-Thesis/assets/122612945/6d342af2-1e0b-4f2a-b207-1d5fda90955c)
+![image](https://github.com/abulzunayed/Masters_Thesis-_Create-NN-model-for-MRI-sequence-Image-and-Postprocessing/assets/122612945/525e5ab7-04b7-4940-a298-eb97879bf653)
 
 6. Conclusion
 The suggested two methods Multiple linear projections model and the Artiϐicial neural
