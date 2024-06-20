@@ -39,3 +39,6 @@ maps. This observation is substantiated by the evidence in Table5(refer to subse
 and B1 with NN model. In the future, the generalization of the proposed methods should
 be investigated because many hyper-parameters are involved within these two models.
 
+![image](https://github.com/abulzunayed/Masters_Thesis-NN-model-for-MRI-sequence-Image-and-Postprocessing/assets/122612945/1e65816a-5467-4a56-b30b-0338e61c0995)
+
+
