@@ -23,6 +23,9 @@ solution for the DREAM sequence.
 
 ![image](https://github.com/abulzunayed/Masters_Thesis-_Create-NN-model-for-MRI-sequence-Image-and-Postprocessing/assets/122612945/525e5ab7-04b7-4940-a298-eb97879bf653)
 
+![image](https://github.com/abulzunayed/Masters_Thesis-NN-model-for-MRI-sequence-Image-and-Postprocessing/assets/122612945/74b46854-2b93-4ec5-a686-cce18bdae128)
+
+
 6. Conclusion
 The suggested two methods Multiple linear projections model and the Artiϐicial neural
 network model serve as the additional unique solution for the DREAM sequence to
@@ -39,6 +42,5 @@ maps. This observation is substantiated by the evidence in Table5(refer to subse
 and B1 with NN model. In the future, the generalization of the proposed methods should
 be investigated because many hyper-parameters are involved within these two models.
 
-![image](https://github.com/abulzunayed/Masters_Thesis-NN-model-for-MRI-sequence-Image-and-Postprocessing/assets/122612945/1e65816a-5467-4a56-b30b-0338e61c0995)
 
 
