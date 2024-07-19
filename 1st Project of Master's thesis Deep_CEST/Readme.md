@@ -25,12 +25,14 @@ uncorrected CEST spectrum, forming the deepCEST approach. This deep NN is includ
 the online image reconstruction of the scanner system to predict the CEST contrasts in ∼30 s with
 uncertainty quantification to indicate the trustworthiness of the predictions.
 
-![image](https://github.com/abulzunayed/Model_DeepCEST/assets/122612945/46539848-4109-4dd0-aa92-95e72ae75005)
+![300170977-46539848-4109-4dd0-aa92-95e72ae75005](https://github.com/user-attachments/assets/9e846acf-a5a4-4e87-a45c-a691a4b160b5)
 
 
-![image](https://github.com/abulzunayed/Project_DeepCEST_model_MRI_data/assets/122612945/4ff35a36-a2ea-4c0b-a54e-439b62711b75)
+![341586274-4ff35a36-a2ea-4c0b-a54e-439b62711b75](https://github.com/user-attachments/assets/1d43a933-064f-43bb-8f67-49297d64bc1c)
 
-![image](https://github.com/abulzunayed/Project_DeepCEST_model_MRI_data/assets/122612945/94f4678b-f167-4a4a-a8e0-f82cad071abd)
+
+
+![341586563-94f4678b-f167-4a4a-a8e0-f82cad071abd](https://github.com/user-attachments/assets/8ad3f47d-bc16-421d-bb23-085d24380522)
 
 
 Achievable skills
